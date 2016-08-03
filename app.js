@@ -31,7 +31,7 @@ var c = new Crawler({
         // console.log(res)
         $('.inner .list .o').each(function(index,item){
             item = $(item)
-            var imgUrl = item.find('.o-img a').attr('href')
+            var imgUrl = item.find('.o-img img').attr('src')
             var bookName = item.find('.o-name a').text()
             var author = item.find('.o-author a').text()
             var cate = item.find('.o-cate a').text()
